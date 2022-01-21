@@ -1,4 +1,4 @@
-package com.weiting.myapplication.ui
+package com.weiting.myapplication.ui.record
 
 import androidx.fragment.app.Fragment
 

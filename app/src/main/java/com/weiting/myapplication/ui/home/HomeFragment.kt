@@ -1,4 +1,4 @@
-package com.weiting.myapplication.ui
+package com.weiting.myapplication.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
