@@ -1,4 +1,4 @@
-package com.weiting.myapplication
+package com.weiting.myworkout
 
 import org.junit.Test
 

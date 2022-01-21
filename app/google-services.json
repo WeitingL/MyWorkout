@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "920919221890",
+    "project_id": "myworkout-b62ee",
+    "storage_bucket": "myworkout-b62ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920919221890:android:ada3c0ecb39f49192e369b",
+        "android_client_info": {
+          "package_name": "com.weiting.myworkout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920919221890-6v9idh8nlvagmedlg87e6d55qgfm5ck7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyL1p7VtHqUa6JMU5ZjymGHjmMdikgaHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920919221890-6v9idh8nlvagmedlg87e6d55qgfm5ck7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
