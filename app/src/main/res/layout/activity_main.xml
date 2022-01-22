@@ -32,10 +32,11 @@
                 android:id="@+id/nav_bottomView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@color/yellow_F58"
+                app:itemIconSize="25dp"
                 android:outlineAmbientShadowColor="@android:color/transparent"
                 android:outlineSpotShadowColor="@android:color/transparent"
-                android:background="@color/black_2020"
-                app:itemTextColor="@color/white"
+                app:itemTextColor="@color/black"
                 app:labelVisibilityMode="selected"
                 app:menu="@menu/nav_menu" />
 
@@ -50,9 +51,22 @@
             android:src="@drawable/dumbbell"
             app:backgroundTint="@color/yellow"
             app:fabSize="auto"
-            app:layout_anchor="@id/nav_bottomViewBar" />
+            app:layout_anchor="@id/nav_bottomViewBar"
+            app:maxImageSize="40dp" />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/nav_barContainer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/navigation"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

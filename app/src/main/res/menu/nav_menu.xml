@@ -2,8 +2,13 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <item android:id="@+id/homeFragment"
+        android:title="@string/menu_abstract_title"
+        android:icon="@drawable/report"
+        android:enabled="true" />
+
     <item
-        android:id="@+id/menu_plan"
+        android:id="@+id/planFragment"
         android:title="@string/menu_plan_title"
         android:icon="@drawable/workout"
         android:enabled="true"/>
@@ -17,8 +22,15 @@
         android:enabled="false"/>
 
     <item
-        android:id="@+id/menu_record"
+        android:id="@+id/recordFragment"
         android:title="@string/menu_record_title"
         android:icon="@drawable/tracking"
         android:enabled="true"/>
+
+    <item
+        android:id="@+id/personalFragment"
+        android:title="@string/menu_personal_title"
+        android:icon="@drawable/strongman"
+        android:enabled="true"/>
+
 </menu>
