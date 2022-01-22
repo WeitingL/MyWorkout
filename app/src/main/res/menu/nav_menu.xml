@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <item
+        android:id="@+id/menu_plan"
+        android:title="@string/menu_plan_title"
+        android:icon="@drawable/workout"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/menu_placeholder"
+        android:title=""
+        android:checkable="false"
+        android:checked="false"
+        app:showAsAction="always"
+        android:enabled="false"/>
+
+    <item
+        android:id="@+id/menu_record"
+        android:title="@string/menu_record_title"
+        android:icon="@drawable/tracking"
+        android:enabled="true"/>
 </menu>

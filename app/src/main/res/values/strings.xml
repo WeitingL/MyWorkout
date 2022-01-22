@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">MyWorkout</string>
+    <string name="menu_plan_title">計畫規劃</string>
+    <string name="menu_record_title">記錄概覽</string>
+    <string name="menu_start_title">開始運動</string>
 </resources>
