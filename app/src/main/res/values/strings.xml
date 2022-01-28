@@ -5,4 +5,43 @@
     <string name="menu_start_title">開始運動</string>
     <string name="menu_personal_title">個人化</string>
     <string name="menu_abstract_title">今日摘要</string>
+
+<!--  Motivation  -->
+    <string name="chest_up">上胸</string>
+    <string name="chest">胸</string>
+    <string name="chest_low">下胸</string>
+    
+    <string name="back">背</string>
+    <string name="back_vertical">背垂直動作</string>
+    <string name="back_horizon">背水平動作</string>
+    <string name="back_low">下背</string>
+    
+    <string name="core">核心</string>
+    
+    <string name="shoulder">肩</string>
+    <string name="shoulder_front">肩前束</string>
+    <string name="shoulder_mid">肩中束</string>
+    <string name="shoulder_back">肩後束</string>
+    
+    <string name="arm">手臂</string>
+    <string name="arm_front">前臂</string>
+    <string name="arm_biceps">二頭肌</string>
+    <string name="arm_triceps">三頭肌</string>
+
+    <string name="leg">腿</string>
+    <string name="leg_front">腿部前側</string>
+    <string name="leg_back">腿部後側</string>
+    <string name="leg_side">腿部內外側</string>
+
+    <string name="burn">有氧</string>
+    <string name="relax">放鬆</string>
+
+    <string name="pull">拉</string>
+    <string name="push">推</string>
+
+    <string name="body_up">上肢</string>
+    <string name="body_low">下肢</string>
+
+    <string name="mutiTimes">耐力訓練</string>
+    
 </resources>

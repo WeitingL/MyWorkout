@@ -5,18 +5,17 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.weiting.myworkout.databinding.FragmentPlanBinding
+import com.weiting.myworkout.databinding.FragmentWorkoutScheduleBinding
 
-class PlanFragment: Fragment() {
+class WorkoutScheduleFragment: Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val binding = FragmentPlanBinding.inflate(inflater, container, false)
-        val viewPagerAdapter = PlanViewPagerAdapter(this)
-        binding.vpPlan.adapter = viewPagerAdapter
+        val binding = FragmentWorkoutScheduleBinding.inflate(inflater, container, false)
+
         return binding.root
     }
 

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.weiting.myworkout.ui.plan.WorkoutSetFragment">
+
+    <ImageView
+        android:id="@+id/iv_toSetSchedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_navigate_next_24" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/bt_addNewSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:background="@color/yellow"
+        android:backgroundTint="@color/yellow"
+        android:clickable="true"
+        app:backgroundTint="@color/yellow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_baseline_add_24" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_workoutSets"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/iv_toSetSchedule"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cp_tags"
+        app:layoutManager="androidx.recyclerview.widget.StaggeredGridLayoutManager"
+        tools:itemCount="6"
+        app:spanCount="2"
+        android:paddingHorizontal="2dp"
+        tools:listitem="@layout/item_set"/>
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/cp_tags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cp_chest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chest"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cp_shoulder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shoulder"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cp_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cp_lag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/leg"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cp_arm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/arm"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cp_burn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/burn"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cp_relax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/relax"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cp_pull"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pull"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cp_push"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/push"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cp_body_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/body_up"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cp_body_low"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/body_low"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/cp_mutiTimes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mutiTimes"/>
+
+    </com.google.android.material.chip.ChipGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
